@@ -8,4 +8,4 @@
  - on peut specifier aussi la configuration pour le développement et production, on ajoute `-dev` et `-prod`
  - pour chaque changement il faut fait `commit` 
 
- - les fichiers de configuration :[:point_right:](./config-repo)
+ - les fichiers de configuration :[:point_right:](./ecom-services/config-repo)
