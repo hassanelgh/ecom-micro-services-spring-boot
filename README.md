@@ -37,7 +37,6 @@ Créer une application de e-commerce basée sur les micro services :
    - après utiliser token existe dans le terminal (aprés l'execution de la commande)
 
 
-
 ### billing-service : [:point_right:](./billing-service)
 
  - pour tester Consul Config et Vault 
@@ -57,5 +56,27 @@ Créer une application de e-commerce basée sur les micro services :
 ### inventory-service : [:point_right:](./inventory-service)
 
 ### order-service : [:point_right:](./order-service)
+
+
+---
+## Configuration : 
+
+   - gateway-service : utilise spring cloud config (voir : [:point_right:](./gateway-service/pom.xml))
+   - customer-service : utilise Consul (voir : [:point_right:](./customer-service/pom.xml))
+   - inventory-service : utilise Vault (voir : [:point_right:](./inventory-service/pom.xml))
+   - order-service : utilise spring cloud config (voir : [:point_right:](./order-service/pom.xml))
+
+---
+## Run : 
+
+   1. Lancer Consul 
+   2. ajouter configuration de customer service dans Consul (voir customer-service : [:point_right:](./customer-service) )  
+   2. Lancer Vault 
+   3. ajouter configuration de inventory service dans Vault (voir inventory-service : [:point_right:](./inventory-service) ) 
+   4. Lancer config-service 
+   5. Lancer gateway-service
+   6. Lancer customer-service 
+   7. Lancer inventory-service
+   8. Lancer order-service
 
 
