@@ -11,6 +11,10 @@
    - ProductItem : [:point_right:](./src/main/java/com/example/orderservice/entities/ProductItem.java)
 
    <img src="images/img_3.png" alt="">
+  
+   - ProjectionOrderWithId :[:point_right:](./src/main/java/com/example/orderservice/entities/ProjectionOrderWithId.java)
+
+  <img src="images/img_8.png" alt="">
 
 - enums :
 
@@ -80,3 +84,23 @@
     - ajouter config import pour specifier url de config server 
 
 <img src="images/img_1.png" alt="">
+
+
+
+## Resulta :
+
+- h2 database :
+
+<img src="images/img_9.png" alt="">
+
+- RestResource :
+
+<img src="images/img_10.png" alt="">
+
+- RestResource avec projection :
+
+<img src="images/img_11.png" alt="">
+
+- RestController : 
+
+<img src="images/img_12.png" alt="">
