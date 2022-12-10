@@ -26,6 +26,22 @@ Créer une application de e-commerce basée sur les micro services :
    - consul ui url : http://localhost:8500/
 
 
+### Vault :
+
+   - Install Vault
+   - lancer Vault par la commande suivant en mode dev
+
+      >   vault server -dev
+
+   - Vault ui url : http://127.0.0.1:8200
+   - après utiliser token existe dans le terminal (aprés l'execution de la commande)
+
+
+
+### billing-service : [:point_right:](./billing-service)
+
+ - pour tester Consul Config et Vault 
+
 ### ecom-services :
 
  - contient la configuration (config-repo)
